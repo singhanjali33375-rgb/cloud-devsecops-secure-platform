@@ -79,3 +79,36 @@ Zero Trust Architecture
 Service Mesh Security
 Built a production-grade Cloud DevSecOps platform implementing automated security
 scanning, secure CI/CD pipelines, Infrastructure as Code, and Kubernetes security controls.
+# Cloud DevSecOps Secure Platform
+
+This project demonstrates a production-grade Cloud DevSecOps implementation where
+security is integrated into every phase of the cloud application lifecycle.
+
+## Objectives
+- Secure cloud-native application development
+- Automated DevSecOps CI/CD pipeline
+- Infrastructure as Code with security controls
+- Kubernetes and container security
+- Continuous monitoring and alerting
+
+## Tech Stack
+- Cloud: AWS / Azure / GCP
+- CI/CD: GitHub Actions, Jenkins
+- Security: Trivy, SonarQube, OWASP Dependency Check
+- IaC: Terraform
+- Containers: Docker, Kubernetes
+- Monitoring: Prometheus, Grafana
+
+## Architecture Flow
+Developer → GitHub → CI/CD Pipeline  
+→ SAST → Dependency Scan → Container Scan  
+→ Terraform Infra → Kubernetes Deploy  
+→ Monitoring & Alerts
+
+## Folder Structure
+app/ docker/ terraform/ kubernetes/ security/ cicd/ monitoring/ scripts/ .github/
+Copy code
+
+## Outcome
+This project proves real-world DevSecOps, cloud security,
+and production-level deployment skills.
