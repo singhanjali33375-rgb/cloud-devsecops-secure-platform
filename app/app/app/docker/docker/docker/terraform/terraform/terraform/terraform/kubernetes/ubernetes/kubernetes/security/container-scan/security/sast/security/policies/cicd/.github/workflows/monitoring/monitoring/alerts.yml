@@ -1,0 +1,5 @@
+groups:
+- name: security-alerts
+  rules:
+  - alert: HighCPUUsage
+    expr: cpu_usage > 80
