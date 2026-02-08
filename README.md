@@ -112,3 +112,5 @@ Copy code
 ## Outcome
 This project proves real-world DevSecOps, cloud security,
 and production-level deployment skills.
+Designed and implemented a Cloud DevSecOps platform integrating automated security
+scanning, secure CI/CD pipelines, Terraform-based infrastructure, and Kubernetes security.
