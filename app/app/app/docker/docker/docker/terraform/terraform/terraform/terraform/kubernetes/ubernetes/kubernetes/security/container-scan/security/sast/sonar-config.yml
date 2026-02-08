@@ -1,0 +1,2 @@
+sonar.projectKey=secure-devsecops
+sonar.sources=app
